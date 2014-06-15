@@ -22,7 +22,7 @@ end
 #online help
 
 group :production do
-gem 'pg'
+	gem 'pg'
 end
 
 #advice online
