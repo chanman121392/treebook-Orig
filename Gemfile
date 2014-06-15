@@ -15,11 +15,12 @@ gem 'uglifier', '>= 1.3.0'
 gem 'devise'
 gem 'simple_form'
 
-group :development, :test do
+#group :development, :test do
 	gem 'sqlite3'
-end
+#end
 
 #online help
+
 group :production do
 gem 'pg'
 end
