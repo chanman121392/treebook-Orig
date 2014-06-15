@@ -19,6 +19,11 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
+#online help
+group :production do
+gem 'pg'
+end
+
 #advice online
 gem 'rails_12factor'
 
